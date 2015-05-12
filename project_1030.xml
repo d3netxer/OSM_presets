@@ -1,76 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-  author="Dirk Stöcker"
+  author="Tom Gertin"
   icon="oneclick.png"
-  version="2.10_2014-12-27"
-  shortdescription="One click settings"
-  de.shortdescription="Ein-Klick-Einstellungen"
-  description="Some additional presets to use with a single click"
-  de.description="Einige zusätzliche Vorlagen zur Nutzung mit einem Klick">
+  version="1.0_2015-05-08"
+  shortdescription="IDP sites"
+  description="Some additional presets to use with a single click">
 
-  <group name="One click" de.name="Ein Klick" icon="oneclick.png">
-    <item name="Oneway" de.name="Einbahnstraße" icon="oneway.png" type="way">
-      <key key="oneway" value="yes" />
-    </item>
-    <item name="Maxspeed 30" de.name="Geschwindigkeit 30" icon="30.png" type="way">
-      <key key="maxspeed" value="30" />
-    </item>
-    <item name="Maxspeed 40" de.name="Geschwindigkeit 40" icon="40.png" type="way">
-      <key key="maxspeed" value="40" />
-    </item>
-    <item name="Maxspeed 50" de.name="Geschwindigkeit 50" icon="50.png" type="way">
-      <key key="maxspeed" value="50" />
-    </item>
-    <item name="Maxspeed 60" de.name="Geschwindigkeit 60" icon="60.png" type="way">
-      <key key="maxspeed" value="60" />
-    </item>
-    <item name="Maxspeed 70" de.name="Geschwindigkeit 70" icon="70.png" type="way">
-      <key key="maxspeed" value="70" />
-    </item>
-    <item name="Maxspeed 80" de.name="Geschwindigkeit 80" icon="80.png" type="way">
-      <key key="maxspeed" value="80" />
-    </item>
-    <item name="Maxspeed 90" de.name="Geschwindigkeit 90" icon="90.png" type="way">
-      <key key="maxspeed" value="90" />
-    </item>
-    <item name="Maxspeed 100" de.name="Geschwindigkeit 100" icon="100.png" type="way">
-      <key key="maxspeed" value="100" />
-    </item>
-    <item name="Maxspeed 110" de.name="Geschwindigkeit 110" icon="110.png" type="way">
-      <key key="maxspeed" value="110" />
-    </item>
-    <item name="Maxspeed 120" de.name="Geschwindigkeit 120" icon="120.png" type="way">
-      <key key="maxspeed" value="120" />
-    </item>
-    <item name="Maxspeed 130" de.name="Geschwindigkeit 130" icon="130.png" type="way">
-      <key key="maxspeed" value="130" />
-    </item>
-    <item name="Bridge" icon="presets/bridge.png" type="way">
-      <key key="bridge" value="yes" />
-      <key key="layer" value="1" />
-    </item>
-    <item name="Tunnel" icon="presets/tunnel.png" type="way">
-      <key key="tunnel" value="yes" />
-      <key key="layer" value="-1" />
-    </item>
-    <item name="Culvert" ru.name="Водопропускная труба" icon="presets/waterway.png" type="node,way">
-      <key key="tunnel" value="culvert" />
-      <key key="layer" value="-1" />
-    </item>
-    <item name="Traffic Signal" icon="traffic-light.png" type="node">
-      <key key="highway" value="traffic_signals" />
-    </item>
-    <item name="Pedestrian Crossing" icon="presets/zebracrossing.png" type="node">
-      <key key="highway" value="crossing" />
-    </item>
-    <item name="Post Box" icon="presets/letter.png" type="node">
-      <key key="amenity" value="post_box" />
-    </item>
-    <item name="Telephone" icon="presets/telephone.png" type="node">
-      <key key="amenity" value="telephone" />
-    </item>
-    <item name="Recycling" icon="presets/recycling.png" type="node,closedway">
-      <key key="amenity" value="recycling" />
+  <group name="Displacement" icon="oneclick.png">
+    <item name="IDP site" icon="oneway.png" type="way">
+      <key key="idp:camp_site" value="spontaneous_camp" />
+      <key key="damage:event" value="nepal_earthquake_2015" />
+      <key key="idp:source_20150427" value="CNES, Airbus DS" />
+      <key key="idp:source_20150503" value="GeoEye1 DigitalGlobe" />
     </item>
   </group>
 </presets>
